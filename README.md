@@ -5,7 +5,7 @@ Michał Kurpiewski 21253
 
 # Opis Projektu
 
-# 🥗 Kreator Diety (Problem Plecakowy)
+# 🥗 Kreator Diety 
 
 Projekt w Pythonie realizujący generator optymalnego jadłospisu przy użyciu wielowymiarowego problemu plecakowego. Algorytm dobiera posiłki tak, aby zmaksymalizować wybrane wartości odżywcze, nie przekraczając narzuconych limitów.
 
