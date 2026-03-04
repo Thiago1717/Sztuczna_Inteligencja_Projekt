@@ -19,4 +19,4 @@ Projekt w Pythonie realizujący generator optymalnego jadłospisu przy użyciu w
   * 🥞 Śniadanie
   * 🍲 Obiad
   * 🥗 Kolacja
-  * 🍎 Przekąska
+  * 🧀 Przekąska
