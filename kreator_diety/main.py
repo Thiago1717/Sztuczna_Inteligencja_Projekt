@@ -117,7 +117,7 @@ def generate_diet_hs(meals, target_kcal, target_p, target_c, target_f):
     best_harmony = min(HM, key=lambda x: x['fitness'])
     
     if best_harmony['fitness'] >= 50000:
-        return None, "Algorytm nie zdołał znaleźć jadłospisu bez powtarzających się posiłków."
+        return None, "Algorytm nie zdołał znaleźć jadłospisu."
         
     return best_harmony['plan'], best_harmony['macros']
 
@@ -136,7 +136,7 @@ if __name__ == "__main__":
     CEL_WEGLE = 30
     CEL_TLUSZCZE = 177
     
-    print(f"--- Uruchamianie Algorytmu Harmonicznego (Metaheurystyka) ---")
+    print(f"--- Uruchamianie Algorytmu--- ")
     print(f"CEL DOCELOWY: {CEL_KCAL} kcal | {CEL_BIALKO}g Białka | {CEL_WEGLE}g Węgli | {CEL_TLUSZCZE}g Tłuszczu\n")
     
     plan, macros_or_error = generate_diet_hs(meals, CEL_KCAL, CEL_BIALKO, CEL_WEGLE, CEL_TLUSZCZE)
